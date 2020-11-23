@@ -1,0 +1,28 @@
+.article-list{
+  list-style: none;
+  height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+.article{
+  border-bottom: 1px solid #c4c1c1;
+  width: 100%;
+  text-align: center;
+}
+
+.article:hover{
+  background-color: #c8c8c8;
+}
+
+.article:active{
+  background-color: #548e8f;
+}
+
+.selected-article{
+  padding: 5px;
+  background-color: #ff8a8a;
+  display: flow-root;
+}

@@ -1,0 +1,129 @@
+.restoraunt-table {
+  background-color: #fa643c;
+  color: black;
+  border-radius: 5px;
+  float: left;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.restoraunt-table:hover{
+  background-color: #fd3000;
+}
+
+.restoraunt-table:active{
+  background-color: #911e00;
+}
+
+.bar{
+  background-color: #548e8f;
+  width: 70%;
+  padding: 25px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  border-radius: 0 15px 15px 0;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+}
+
+.entrance{
+  height: 150px;
+  width: 50px;
+  background-color: #c8c8c8;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  writing-mode: tb-rl;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  font-size: 20px;
+  border-radius: 0 15px 15px 0;
+}
+
+.active-plate{
+  margin: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #05a200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-plate-in{
+  background-color: #069600;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.plate{
+  margin: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plate-in{
+  background-color: #c8c8c8;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.slots2{
+  width: 180px !important;
+}
+
+.position-1{
+  position: absolute;
+  top: 420px;
+  left: 0;
+}
+
+.position-2{
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 180px;
+}
+
+.position-3{
+  position: absolute;
+  top: 370px;
+  left: 250px;
+  width: 300px;
+}
+
+.position-4{
+  position: absolute;
+  top: 600px;
+  left: 250px;
+  width: 400px;
+}
+
+.position-5{
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  width: 180px;
+}
+
+.position-6{
+  position: absolute;
+  top: 370px;
+  left: 700px;
+  width: 180px;
+}
